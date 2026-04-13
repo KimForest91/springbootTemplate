@@ -5,7 +5,9 @@
         "outDir": "../src/main/resources/static/js",
         "rootDir": "./src",
         "strict": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "sourceMap": true
     },
-    "include": ["src/**/*"]
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
 }
