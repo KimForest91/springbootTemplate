@@ -1,0 +1,43 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.server.launchMode": "Standard",
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-21.0.10",
+    "spring-boot.ls.java.home": "C:\\Program Files\\Java\\jdk-21.0.10",
+
+    "files.exclude": {
+        "**/.gradle": true,
+        "**/build": true,
+        "**/target": true,
+        "**/node_modules": true
+    },
+    "search.exclude": {
+        "**/.gradle": true,
+        "**/build": true,
+        "**/target": true,
+        "**/node_modules": true
+    },
+    "files.watcherExclude": {
+        "**/.gradle/**": true,
+        "**/build/**": true,
+        "**/target/**": true,
+        "**/node_modules/**": true
+    },
+
+    "editor.formatOnSave": false,
+
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/src/main/resources/static/css"
+        }
+    ],
+    "liveSassCompile.settings.includeItems": [
+        "/frontend/src/scss/**/*.scss"
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "/**/node_modules/**"
+    ],
+    "liveSassCompile.settings.generateMap": true
+}

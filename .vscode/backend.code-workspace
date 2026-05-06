@@ -1,0 +1,93 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+
+        "files.watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/node_modules/**": true,
+            "**/target/**": true,
+            "**/build/**": true,
+            "**/.gradle/**": true
+        },
+
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/target": true,
+            "**/build": true,
+            "**/.gradle": true
+        },
+
+        "java.configuration.updateBuildConfiguration": "interactive",
+        "java.import.gradle.enabled": true,
+        "java.import.maven.enabled": false,
+        "java.autobuild.enabled": false,
+
+        "spring-boot.ls.checkjvm": false
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-vscode.js-atom-grammar",
+            "bradgashler.htmltagwrap",
+            "chakrounanas.turbo-console-log",
+            "dbaeumer.vscode-eslint",
+            "donjayamanne.jquerysnippets",
+            "ecmel.vscode-html-css",
+            "formulahendry.auto-close-tag",
+            "formulahendry.auto-rename-tag",
+            "glenn2223.live-sass",
+            "joy-yu.css-snippets",
+            "kamikillerto.vscode-colorize",
+            "ms-ceintl.vscode-language-pack-ko",
+            "ms-vscode.hexeditor",
+            "pranaygp.vscode-css-peek",
+            "rioj7.command-variable",
+            "ritwickdey.liveserver",
+            "ryuta46.multi-command",
+            "sibiraj-s.vscode-scss-formatter",
+            "solnurkarim.html-to-css-autocompletion",
+            "streetsidesoftware.code-spell-checker",
+            "syler.sass-indented",
+            "tal7aouy.rainbow-bracket",
+            "vitest.explorer",
+            "wayou.vscode-todo-highlight",
+            "xabikos.javascriptsnippets",
+            "zignd.html-css-class-completion",
+            "oderwat.indent-rainbow",
+
+            "donjayamanne.githistory",
+            "mhutchie.git-graph",
+
+            "redhat.java",
+            "vscjava.vscode-maven",
+            "vscjava.vscode-gradle",
+            "redhat.vscode-yaml",
+            "vscjava.vscode-java-dependency",
+            "vscjava.vscode-java-debug",
+            "vscjava.vscode-java-test",
+            "vscjava.vscode-lombok",
+
+            "vscjava.vscode-spring-initializr",
+            "vmware.vscode-spring-boot",
+            "vscjava.vscode-spring-boot-dashboard",
+
+            "cweijan.dbclient-jdbc",
+            "cweijan.vscode-mysql-client2",
+            "yangbaopan.vscode-java-ibatisx",
+
+            "ms-azuretools.vscode-docker",
+            "ms-vscode-remote.remote-containers",
+
+            "alefragnani.bookmarks",
+            "ibm.output-colorizer",
+            "christian-kohler.npm-intellisense",
+            "zainchen.json",
+            "rangav.vscode-thunder-client"
+        ]
+    }
+}
